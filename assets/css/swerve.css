@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*------------------------------------*\
+	CONTENTS
+\*------------------------------------*/
+/*
+	META BOX PERMALINK LIST
+	META BOX NEW ALIAS INPUT
+*/
+
+
+/*------------------------------------*\
+	$META BOX PERMALINK LIST
+\*------------------------------------*/
+
+	.mkdo-swerve-permalink-list label
+	{
+		display: block;
+		padding:5px;
+		padding-right:30px;
+		margin-bottom:5px;
+		background-color: #eee;
+		font-style: italic;
+		vertical-align:text-top;
+		position: relative;
+	}
+
+	.mkdo-swerve-permalink-list br
+	{
+		display: none
+	}
+
+	.mkdo-swerve-permalink-list label input
+	{
+		top:5px;
+		right:5px;
+		position: absolute;
+	}
+
+/*------------------------------------*\
+	$META BOX NEW ALIAS INPUT
+\*------------------------------------*/
+
+	.mkdo-swerve-add-new-alias label
+	{
+		font-weight: bold;
+	}
+
+	.mkdo-swerve-add-new-alias input
+	{
+		width:100%;
+	}
